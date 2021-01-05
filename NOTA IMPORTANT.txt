@@ -1,0 +1,74 @@
+Per executar el programa es necessita Android Studio, les dades a introduir estan a sota. 
+
+OPCIÓ 1: Emulador (Android Studio)
+	1. Obrir Android Studio
+	2. Obrir Blueberry al Android Studio
+	3. Crear el dispositu virtual:
+		a. A la barra superior anar a "Tools".
+		b. Anar a l'apartat "AVD Manager".
+		c. S'obrirà una finestra on s'ha de seleccionar "Create Virtual Device".
+		d. Seleccionar la categoria "Phone" i un model de mòbil (Recomanació seleccionar el Pixi 4 XL).
+		e. Seleccionar ara el sistema "Pie" (S'ha de descarregar, cal esperar un petit temps).
+		f. Donar a "Finish"
+		g. Ja es pot tancar la finestra.
+	4. En la part superior (al costat del botó de "Play" de color verd), seleccionem el tipus de màquina virtual ("Pixi 4 XL API").
+	5. Executar el programa.
+	6. S'obrirà l'app on s'han d'introduir les dades.
+
+OPCIÓ 2: Emulador extern (Exemple utilitzat: BlueStacks) (S'ha d'instal·lar)
+	1. Obrir BlueStacks.
+	2. Configurar BlueStacks:
+		a. A la barra superior anar a "Menú" i "Configuració" (o "Ajustes")
+		b. Anar a "Preferencies"
+		c. Buscar l'apartat "Configuracions de la plataforma" i activar "Habilitar Android Debug Bridge (ADB).
+	3. Obrir Android Studio.
+	4. Obrir Blueberry al Android Studio.
+	5. En la part superior (al costat del botó de "Play" de color verd), seleccionem el tipus de màquina virtual ("Virtual Device").
+	6. Executar el programa.
+	7. S'obrirà l'app on s'han d'introduir les dades.
+
+OPCIÓ 3: Instal·lar app al mòbil
+->Configuració del dispositiu:
+	1. Connecta el dispositiu a la màquina de desenvolupament amb un cable USB. 
+	   Si Vas desenvolupar una app en Windows, és possible que hagis de instal lar el controlador USB apropiat per al teu dispositiu.
+	2. Realitza els següents passos per tal d'habilitar la depuració d'USB a la finestra Opcions per a desenvolupadors:
+		a. Obre l'app de "Configuració"
+		b. Si el teu dispositiu fa servir Android 8.0 o una versió posterior, selecciona "Sistema". 
+		   En cas contrari, continua amb el pas següent.
+		c. Desplaça't fins a la part inferior i selecciona "Sobre el telèfon".
+		d. Desplaça't fins a la part inferior i pressiona "Nombre de compilació" set vegades. 
+		   (En el meu cas pressiono a "Versió MIUI")
+		e. Torna a la pantalla anterior, desplaça't fins a la part inferior i pressiona "Desenvolupador".
+		   (En el meu cas pressiono "Configuració addicional", i aquí pressiono "Opcions per a desenvolupador").
+		f. A la finestra "Opcions per a desenvolupadors", desplaça't cap avall per buscar i habilitar la depuració d'USB.
+		   (S'ha d'activar la "Depuració USB" i també "Instal·lar via USB").
+
+-->Executa l'app en el teu dispositiu de la següent manera:
+	1. Obrir Android Studio.
+	2. Obrir Blueberry a l'Android Studio.
+	3. Executar el programa.
+	4. En el mòbil, pressiona a l'opció instal·lar.
+	5. App instal·lada, ja es pot utilitzar, s'obrirà l'app on s'han d'introduir les dades.
+
+
+LES DADES A INTRODUIR (Si no es vol un missatge d'error)
+(Al host no s'escriu res)
+
+	1. username: Raquel
+	   password: 1111
+
+	2. username: Miriam
+	   password: 2222
+
+	3. username: Sergi
+	   password: 3333
+
+	4. username: Carmen
+	   password: 4444
+
+	5. username: Anna
+	   password: 5555
+
+(Aquest usuari es amb el que vam fer totes les proves)
+	6. username: Rodolfo
+	   password: 1
